@@ -1,0 +1,61 @@
+/* corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  /*  principal */
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /*  título */
+  h1 {
+    font-size: 36px;
+    color: #22009e;
+    margin-bottom: 20px;
+  }
+  
+  /*  campo de pesquisa */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo da lista de músicas */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Estilo dos itens da lista */
+  li {
+    background-color: #000;
+    padding: 10px;
+    border: 1px solid #121212;
+    border-radius: 4px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Estilo dos itens da lista no hover */
+  li:hover {
+    background-color: #333;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
